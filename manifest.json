@@ -1,0 +1,14 @@
+{
+  "name": "Shortle",
+  "version" : "1.0.0",
+  "description" : "Condenses results from Wordle style games.",
+  "manifest_version": 3,
+  "author": "Maxim Handley",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Shortle"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

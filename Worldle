@@ -1,0 +1,16 @@
+class Worldle extends Gamedle {
+
+  constructor()  {
+  }
+
+  executeResults = function () {
+    let i = 0;
+    guesses = localStorage.getItem('guesses');
+    guesses.array.forEach(guess => {
+      // dont do it like this but you get the idea.
+      i++;
+      this.shortResults += this.token['green'];
+    });
+  }
+
+}
